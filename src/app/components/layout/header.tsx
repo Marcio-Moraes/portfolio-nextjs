@@ -1,6 +1,5 @@
-'use client';
-
-import Image from "next/image"
+'use client'; 
+ 
 import Link from "next/link"
 import { useState } from "react"
 
@@ -19,7 +18,15 @@ export const Header = () => {
             <div className="text-6xl font-black hover:text-amber-400">
                 <Link href={'/'}>M</Link>
             </div>
-            <div className="flex flex-col gap-2 cursor-pointer hover:opacity-75" onClick={abrirMenu}>
+
+            <div className="flex gap-1">
+                <Link href={"/"} className="hover:text-black hover:bg-amber-400 px-4 py-1">Home</Link>
+                <Link href={"/sobre"} className="hover:text-black hover:bg-amber-400 px-4 py-1">Sobre</Link>
+                <Link href={"/projetos"} className="hover:text-black hover:bg-amber-400 px-4 py-1">Projetos</Link>
+                <Link href={"/contato"} className="hover:text-black hover:bg-amber-400 px-4 py-1">Contato</Link>
+            </div>
+
+            <div className="flex flex-col bg-amber-50 z-9999999999 p-1.5 gap-2 cursor-pointer hover:opacity-75" onClick={abrirMenu}>
                 <div className="w-7 h-0.5 bg-amber-400"></div>
                 <div className="w-7 h-0.5 bg-amber-400"></div>
                 <div className="w-4 h-0.5 bg-amber-400"></div>
