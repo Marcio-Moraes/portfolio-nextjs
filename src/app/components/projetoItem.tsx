@@ -7,7 +7,7 @@ type Props = {
 
 export const ProjetoItem = ({dadosType}: Props)=>{
     return(
-        <div className="w-full max-w-[600] py-3.5 px-2 border border-amber-400">
+        <div className="w-full rounded max-w-[600] py-3.5 px-2 border border-amber-400">
             <Image
                 src={`${dadosType.img}`}
                 alt=""
