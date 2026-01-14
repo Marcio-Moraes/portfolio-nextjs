@@ -4,3 +4,4 @@ export type Projeto = {
     link: string;
     img: string;
 }
+

@@ -3,6 +3,8 @@ import { Footer } from "../components/layout/footer";
 import { Header } from "../components/layout/header";
 import { Titulo } from "../components/layout/titulo";
 import Marcio from "../../assets/marcio-moraes-desenvolvedor-front-end.jpg"
+import { SubTitulo } from "../components/layout/subTitulo";
+import { Paragrafo } from "../components/layout/paragrafo";
 
 export default function Sobre()   {
     return(
@@ -20,8 +22,30 @@ export default function Sobre()   {
                     </div>
                     <div className="w-full">
                         <Titulo title1="Sobre" title2="mim" />
-                        <p>Analista de Sistemas</p>
-                        <p>Desenvolvedor com mais de 7 anos de experiência em desenvolvimento web. Já trabalhei com várias tecnologias diferentes . Desenvolvendo interfaces de sistemas web, criando lojas virtuais, landingPages, projetos institucionais dentre outros...</p>
+                        <SubTitulo texto="Quem sou eu?" />
+                        <Paragrafo 
+                            texto="Desenvolvedor com mais de 7 anos de experiência em desenvolvimento web."
+                        />
+
+                        <SubTitulo texto="Formação" />
+                        <Paragrafo 
+                            texto="Análise e Desenvolvimento de Sistemas - Cursando"
+                        />
+
+                        <SubTitulo texto="Curso Técnico" />
+                        <Paragrafo 
+                            texto="Desenvolvimento Web - Concluído"
+                        />
+
+                        <SubTitulo texto="Cursos Complementares" />
+                        <Paragrafo 
+                            texto="Estou sempre buscando novos conhecimentos. Atualmente, estou seguindo as trilhas"
+                        />
+                        <Paragrafo 
+                            texto="Desenvolvimento Web - Concluído"
+                        />
+                        
+                        <p>Já trabalhei com várias tecnologias diferentes . Desenvolvendo interfaces de sistemas web, criando lojas virtuais, landingPages, projetos institucionais dentre outros...</p>
                     </div>
                 </div>
             <Footer />    

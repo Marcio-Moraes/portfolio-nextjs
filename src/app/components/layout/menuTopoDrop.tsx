@@ -14,7 +14,7 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Menu } from "lucide-react"
+import { FolderKanban, Home, Menu, User } from "lucide-react"
 import Link from "next/link"
 
 export function MenuDropDownTopo() {
@@ -30,15 +30,21 @@ export function MenuDropDownTopo() {
         <DropdownMenuGroup>
           <DropdownMenuItem>
             <Link href={'/'}>Home</Link>
-            <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
+            <DropdownMenuShortcut>
+              <Home />
+            </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Link href={'/sobre'}>Sobre</Link>
-            <DropdownMenuShortcut>⌘B</DropdownMenuShortcut>
+            <DropdownMenuShortcut>
+              <User />
+            </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Link href={'/projetos'}>Projetos</Link>
-            <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
+            <DropdownMenuShortcut>
+              <FolderKanban />
+            </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Link href={'/contato'}>Contato</Link>
