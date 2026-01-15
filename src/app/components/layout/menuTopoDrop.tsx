@@ -14,7 +14,7 @@ import {
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { FolderKanban, Home, Menu, User } from "lucide-react"
+import { FolderKanban, Github, Home, MailPlus, Menu, MessageCircleCode, Smartphone, User } from "lucide-react"
 import Link from "next/link"
 
 export function MenuDropDownTopo() {
@@ -48,18 +48,20 @@ export function MenuDropDownTopo() {
           </DropdownMenuItem>
           <DropdownMenuItem>
             <Link href={'/contato'}>Contato</Link>
-            <DropdownMenuShortcut>⌘K</DropdownMenuShortcut>
+            <DropdownMenuShortcut>
+              <Smartphone />
+            </DropdownMenuShortcut>
           </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
-          <DropdownMenuItem className="text-center">Carreira</DropdownMenuItem>
+          <DropdownMenuItem>Carreira</DropdownMenuItem>
           <DropdownMenuSub>
             <DropdownMenuSubTrigger>Currículo</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
                 <DropdownMenuItem>Currículo em PDF</DropdownMenuItem>
-                <DropdownMenuItem>Message</DropdownMenuItem>
+                <DropdownMenuItem>Página Web</DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>More...</DropdownMenuItem>
               </DropdownMenuSubContent>
@@ -73,12 +75,21 @@ export function MenuDropDownTopo() {
         <DropdownMenuSeparator />
         <DropdownMenuItem>
           <Link href={'https://www.linkedin.com/in/marciomsilva/'} target="_blank">GitHub</Link>
+          <DropdownMenuShortcut>
+            <Github />
+          </DropdownMenuShortcut>
         </DropdownMenuItem>
         <DropdownMenuItem>
           <Link href={'https://www.linkedin.com/in/marciomsilva/'} target="_blank">WhatsApp</Link>
+          <DropdownMenuShortcut>
+            <MessageCircleCode />
+          </DropdownMenuShortcut>
         </DropdownMenuItem>
         <DropdownMenuItem>
           <Link href={'mailto:marciomoraes.cdd@gmail.com'}>E-Mail</Link>
+          <DropdownMenuShortcut>
+            <MailPlus />
+          </DropdownMenuShortcut>
         </DropdownMenuItem>
         <DropdownMenuItem disabled>Front-End Enginer</DropdownMenuItem>
       </DropdownMenuContent>
