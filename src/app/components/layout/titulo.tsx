@@ -1,12 +1,13 @@
 type Props = {
     title1: string;
     title2: string;
+    mt?: string;
 }
 
-export const Titulo = ({title1, title2}: Props) => {
+export const Titulo = ({title1, title2, mt}: Props) => {
     return(
         <div className="flex flex-col items-center">
-            <h1 className="font-bold text-[36px] md:text-[42px] flex justify-center gap-3">
+            <h1 className={`font-bold text-[36px] md:text-[42px] flex justify-center gap-3 ${mt ? " "+mt : ''}`}>
                 {title1}
                 <span className="text-amber-400">{title2}</span>
             </h1>
