@@ -1,5 +1,5 @@
 type Props = {
-    title1: string;
+    title1: string | string[];
     title2: string;
     mt?: string;
 }
