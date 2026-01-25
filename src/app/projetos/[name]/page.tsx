@@ -39,14 +39,18 @@ const Page = async ({params}: PageParams) => {
                                 <div className="flex justify-center gap-6">
                                     <Link 
                                         className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75" 
-                                        href={''}>
-                                            Projetos
+                                        href={m.linkProjeto}
+                                        target="_blank"
+                                    >
+                                        Veja Online
                                     </Link>
 
                                     <Link 
                                         className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75" 
-                                        href={''}>
-                                            GitHub
+                                        href={m.github}
+                                        target="_blank"
+                                    >
+                                        GitHub
                                     </Link>
                                 </div>
                             </div>
@@ -63,7 +67,7 @@ const Page = async ({params}: PageParams) => {
                                 <div className="mb-10">
                                     <p>{m.label}</p>
 
-                                    <p>Descrição do projeto</p>
+                                    <p>{m.desc}</p>
                                 </div>
                             </div>
                         </div>

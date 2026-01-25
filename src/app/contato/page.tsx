@@ -7,7 +7,7 @@ const Contato = () => {
     return(
         <div>
             <Titulo title1="Fale" title2="Comigo" mt="mt-10" />
-            <div className="w-full max-w-7xl m-auto p-10 my-10 flex flex-col md:flex-row gap-10">
+            <div className="w-full max-w-7xl m-auto min-h-dvh p-10 my-10 flex flex-col md:flex-row gap-10">
                 <div className="w-full p-5">
                     <SubTitulo texto="Como posso ajudar?" classeNome="mb-5" />
                     
@@ -24,15 +24,16 @@ const Contato = () => {
                         </li>
                         <li>
                             <Link 
-                                href="#" 
+                                href="mailto:marciomoraes.cdd@gmail.com" 
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
-                                <Mail className="text-amber-400" /> Email
+                                <Mail className="text-amber-400" /> marciomoraes.cdd@gmail.com
                             </Link>
                         </li>
                         <li>
                             <Link 
-                                href="#" 
+                                href="https://www.linkedin.com/in/marciomsilva/" 
+                                target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                <Linkedin className="text-amber-400" /> Linkedin
