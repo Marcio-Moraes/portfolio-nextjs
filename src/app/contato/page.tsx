@@ -1,7 +1,9 @@
-import { Linkedin, Mail, MessageCircleCode } from "lucide-react";
+import { Linkedin, Mail, MessageCircleCode, Phone } from "lucide-react";
 import { SubTitulo } from "../components/layout/subTitulo";
 import { Titulo } from "../components/layout/titulo";
 import Link from "next/link";
+import FormContato from "../components/layout/formContato";
+
 
 const Contato = () => {
     return(
@@ -14,6 +16,14 @@ const Contato = () => {
                     <p>Você pode entrar em contato, Preenchendo o formulário, ou através do WhatsApp, Email, ou minhas redes sociais..</p>
 
                     <ul className="flex flex-col justify-start gap-8 my-10">
+                        <li className="">
+                            <Link 
+                                href="tel:+5581986709660" 
+                                className="inline-flex gap-2 py-1 pr-5"
+                            >
+                                <Phone className="text-amber-400" /> 81 98670-9660
+                            </Link>
+                        </li>
                         <li className="">
                             <Link 
                                 href="#" 
@@ -41,7 +51,9 @@ const Contato = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="bg-emerald-400 w-full p-5">...</div>
+                <div className="w-full p-5">
+                    <FormContato />
+                </div>
             </div>
         </div>
     )
