@@ -60,17 +60,15 @@ export function MenuDropDownTopo() {
             <DropdownMenuSubTrigger>Currículo</DropdownMenuSubTrigger>
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
-                <DropdownMenuItem>Currículo em PDF</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href={'https://www.linkedin.com/in/marciomsilva/'} target="_blank">Currículo em PDF</Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem>Página Web</DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>More...</DropdownMenuItem>
               </DropdownMenuSubContent>
             </DropdownMenuPortal>
           </DropdownMenuSub>
-          <DropdownMenuItem>
-            New Team
-            <DropdownMenuShortcut>⌘+T</DropdownMenuShortcut>
-          </DropdownMenuItem>
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
@@ -91,7 +89,6 @@ export function MenuDropDownTopo() {
             <MailPlus />
           </DropdownMenuShortcut>
         </DropdownMenuItem>
-        <DropdownMenuItem disabled>Front-End Enginer</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
