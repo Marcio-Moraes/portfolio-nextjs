@@ -24,7 +24,10 @@ export default function Sobre()   {
                             texto="Pernambucano, 35 anos. Desenvolvedor Front-End à mais de 8 anos."
                         />
                         <Paragrafo 
-                            texto="Por muitos anos, desenvolvi para WordPress, criando temas e plugins, e realizando manutenções mensais em projetos para agências de marketing como colaborador."
+                            texto="Utilizo as seguintes tecnologias: Reactjs, Nextjs, Typescript, Tailwindcss, shadcn-UI, Zustand, ReactHookForm e Zod, Tanstacj Query."
+                        />
+                        <Paragrafo 
+                            texto="Por muitos anos, desenvolvi para WordPress com php, criando temas e plugins, e realizando manutenções mensais em projetos para agências de marketing como colaborador."
                         />
 
                         <Paragrafo 
@@ -32,7 +35,7 @@ export default function Sobre()   {
                         />
 
                         <Paragrafo 
-                            texto="À alguns anos, tenho focado no NextJS, com Typescript, TailwindCss, Shadcn-ui, para desenvolver as interfaces de aplicações web."
+                            texto="À alguns anos, tenho focado no Reactjs, com Typescript, para desenvolver interfaces de aplicações web."
                         />
 
                         <SubTitulo texto="Formação" />
