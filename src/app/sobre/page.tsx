@@ -11,8 +11,8 @@ export default function Sobre()   {
                     <div className="w-full flex justify-center">
                         <Image 
                             src={Marcio}
-                            width={800}
-                            height={200}
+                            width={400}
+                            height={650}
                             alt="Márcio Moraes"
                             className="max-w-[400]"
                         />

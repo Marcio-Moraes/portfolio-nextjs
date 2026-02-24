@@ -5,15 +5,6 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "./components/layout/header";
 import { Footer } from "./components/layout/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Márcio Moraes - Desenvolvedor Web - Software Engine",
