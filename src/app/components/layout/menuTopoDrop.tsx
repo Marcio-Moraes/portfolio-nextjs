@@ -61,11 +61,8 @@ export function MenuDropDownTopo() {
             <DropdownMenuPortal>
               <DropdownMenuSubContent>
                 <DropdownMenuItem>
-                  <Link href={'https://www.linkedin.com/in/marciomsilva/'} target="_blank">Currículo em PDF</Link>
+                  <Link href={'https://www.marciomsilva.com.br/curriculo/marcio_moraes_frontend.pdf'} target="_blank">Currículo em PDF</Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>Página Web</DropdownMenuItem>
-                <DropdownMenuSeparator />
-                <DropdownMenuItem>More...</DropdownMenuItem>
               </DropdownMenuSubContent>
             </DropdownMenuPortal>
           </DropdownMenuSub>

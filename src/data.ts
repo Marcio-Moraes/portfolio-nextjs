@@ -4,4 +4,7 @@ export const data = {
         {id: 2, label: "Portfolio Pessoal", link: "/projetos/portfolionext", linkProjeto: "https://portfolio-nextjs-gamma-beige.vercel.app/", img: "/assets/projetos/portfolio-nextjs.png", github: "https://github.com/Marcio-Moraes/portfolio-nextjs", tech: 'Reactjs, Nextjs, Typescript, tailwindcss, Shadcn-UI', desc: "Versão do meu Portfolio atual, criado para reunir projetos pessoais para exibir conhecimentos adquiridos ou  projetos reais que resolveram algum problema específico."},
         {id: 3, label: "Sistema de Despesas Pessoais", link: "/projetos/sistema-despesasp", linkProjeto: "https://dashboard-de-despesas-pessoais.vercel.app/", img: "/assets/projetos/dashboard-despesas-pessoais.png", github: "https://github.com/Marcio-Moraes/dashboard-despesas-pessoais", tech: 'Reactjs, Typescript, Styled-Components, hooks(Effect, States)', desc: "Criado para registro de despesas e receitas filtrando por mês. Foram criadas funções auxiliares para resolver problemas como: pegar o mês atual, filtrar a lista completa de dados e exibir apenas por mês, formatar datas, alterar o mês e a lista filtrada de acordo com o mês selecionado."},
     ],
+    icones: [
+        {id: 1, img: "/assets/projetos/b7store.png", nomeIcon: ''}, 
+    ],
 }
