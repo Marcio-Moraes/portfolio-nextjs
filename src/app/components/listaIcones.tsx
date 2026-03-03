@@ -10,15 +10,15 @@ type ListaIconesProps = {
 
 export const ListaIcones = () => {
     return(
-        <ul className="flex flex-wrap justify-center gap-5 my-8 px-5">
+        <ul className="flex flex-wrap justify-center gap-4 my-8 px-5">
             {data.icones.map((i)=> (
-                <li key={i.id} className="text-white fill-amber-300">
+                <li key={i.id} className={`text-white fill-amber-300 ${i.nomeIcon == 'Github' && 'bg-white '}`}>
                     <Image
                         width={40}
                         height={40}
                         alt={i.nomeIcon}
                         src={i.img}
-                        className="fill-amber-400 stroke-amber-400"                        
+                        className="fill-amber-400 stroke-amber-400" 
                     />
                 </li>
             ))}
