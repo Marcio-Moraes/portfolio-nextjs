@@ -30,10 +30,10 @@ export const ProjetoItem = ({dadosType}: Props)=>{
 
                     
                     
-                    <div className="mt-4 flex flex-col md:flex-row justify-center gap-3">
+                    <div className="mt-4 flex flex-col md:flex-row justify-center gap-2.5">
                         <Link 
                             href={dadosType.link} 
-                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75 text-center"
+                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block md:my-5 hover:opacity-75 text-center"
                         >
                             Detalhes
                         </Link>
@@ -41,7 +41,7 @@ export const ProjetoItem = ({dadosType}: Props)=>{
                         <Link 
                             href={dadosType.github}
                             target="_blank"
-                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75 text-center"
+                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block md:my-5 hover:opacity-75 text-center"
                         >
                             GitHub
                         </Link>
@@ -49,7 +49,7 @@ export const ProjetoItem = ({dadosType}: Props)=>{
                         <Link 
                             href={dadosType.linkProjeto} 
                             target="_blank"
-                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75 text-center"
+                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block md:my-5 hover:opacity-75 text-center"
                         >
                             Veja Online
                         </Link>
