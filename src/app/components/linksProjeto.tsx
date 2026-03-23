@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { TbListDetails } from "react-icons/tb";
+import { BotaoProjetoItem } from "./layout/botaoProjetoItem";
+import { FaGithub } from "react-icons/fa";
 type Props = {   
     linkProjeto: string;
     github: string;
@@ -7,26 +10,20 @@ type Props = {
 export const LinksProjeto = ({linkProjeto, github}: Props) => {
     return(
         <div className="">
-            <div className="text-center mt-10">
+            <div className="text-center mt-10 mb-5">
                 links do projeto:
             </div>
             
             <div className="flex justify-center gap-6">
-                <Link 
-                    className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75" 
-                    href={linkProjeto}
-                    target="_blank"
-                >
-                    Veja Online
-                </Link>
+                <BotaoProjetoItem href={linkProjeto} targetblank>
+                    <TbListDetails />
+                    <div className="hidden md:flex">Detalhes</div>
+                </BotaoProjetoItem>
 
-                <Link 
-                    className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75" 
-                    href={github}
-                    target="_blank"
-                >
-                    GitHub
-                </Link>
+                <BotaoProjetoItem href={github} targetblank>
+                    <FaGithub />
+                    <div className="hidden md:flex">GitHub</div>
+                </BotaoProjetoItem>
             </div>
         </div>
     )

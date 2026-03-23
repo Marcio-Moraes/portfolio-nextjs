@@ -1,6 +1,9 @@
 import { Projeto } from "@/type/projeto"
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { TbListDetails } from "react-icons/tb";
 import Image from "next/image"
 import Link from "next/link";
+import { BotaoProjetoItem } from "./layout/botaoProjetoItem";
 
 type Props = {
     dadosType: Projeto;    
@@ -30,29 +33,21 @@ export const ProjetoItem = ({dadosType}: Props)=>{
 
                     
                     
-                    <div className="mt-4 flex flex-col md:flex-row justify-center gap-2.5">
-                        <Link 
-                            href={dadosType.link} 
-                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block md:my-5 hover:opacity-75 text-center"
-                        >
-                            Detalhes
-                        </Link>
-                    
-                        <Link 
-                            href={dadosType.github}
-                            target="_blank"
-                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block md:my-5 hover:opacity-75 text-center"
-                        >
-                            GitHub
-                        </Link>
+                    <div className="mt-4 flex justify-center gap-2.5">
+                        <BotaoProjetoItem href={dadosType.link}>
+                            <TbListDetails />
+                            <div className="hidden md:flex">Detalhes</div>
+                        </BotaoProjetoItem>
 
-                        <Link 
-                            href={dadosType.linkProjeto} 
-                            target="_blank"
-                            className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block md:my-5 hover:opacity-75 text-center"
-                        >
-                            Veja Online
-                        </Link>
+                        <BotaoProjetoItem href={dadosType.github}>
+                            <FaGithub />
+                            <div className="hidden md:flex">GitHub</div>
+                        </BotaoProjetoItem>
+
+                        <BotaoProjetoItem href={dadosType.linkProjeto}>
+                            <FaExternalLinkAlt />
+                            <div className="hidden md:flex">Link</div>
+                        </BotaoProjetoItem>
                     </div>
                 </div>
             </div>
