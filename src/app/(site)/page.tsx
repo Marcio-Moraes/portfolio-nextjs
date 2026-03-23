@@ -6,7 +6,7 @@ import { Projetos } from "../components/projetos";
 
 export default function Page() {
   return (
-   <div className="">
+   <div className="pb-40">
     <Marcio />
     <CarrosselProjetos />
    </div>
