@@ -24,7 +24,7 @@ export const ProjetoItem = ({dadosType}: Props)=>{
                     </h2>
                     
 
-                    <p className="text-center">{dadosType.desc}</p>
+                    <p className="text-center hidden md:block">{dadosType.desc}</p>
 
                     <h3 className="mt-5 text-center">Tecnologias utilizadas: ({dadosType.tech})</h3>
 
