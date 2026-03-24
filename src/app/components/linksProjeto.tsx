@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { TbListDetails } from "react-icons/tb";
 import { BotaoProjetoItem } from "./layout/botaoProjetoItem";
-import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 type Props = {   
     linkProjeto: string;
     github: string;
@@ -16,8 +16,8 @@ export const LinksProjeto = ({linkProjeto, github}: Props) => {
             
             <div className="flex justify-center gap-6">
                 <BotaoProjetoItem href={linkProjeto} targetblank>
-                    <TbListDetails />
-                    <div className="hidden md:flex">Detalhes</div>
+                    <FaExternalLinkAlt />
+                    <div className="hidden md:flex">Link</div>
                 </BotaoProjetoItem>
 
                 <BotaoProjetoItem href={github} targetblank>
