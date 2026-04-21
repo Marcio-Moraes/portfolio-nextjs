@@ -69,13 +69,13 @@ export function MenuDropDownTopo() {
         </DropdownMenuGroup>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
-          <Link href={'https://www.linkedin.com/in/marciomsilva/'} target="_blank">GitHub</Link>
+          <Link href={'https://github.com/marcio-moraes'} target="_blank">GitHub</Link>
           <DropdownMenuShortcut>
             <Github />
           </DropdownMenuShortcut>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Link href={'https://www.linkedin.com/in/marciomsilva/'} target="_blank">WhatsApp</Link>
+          <Link href={'https://wa.me/5581986709660'} target="_blank">WhatsApp</Link>
           <DropdownMenuShortcut>
             <MessageCircleCode />
           </DropdownMenuShortcut>
