@@ -2,6 +2,9 @@ import { Linkedin, Mail, MessageCircleCode, Phone } from "lucide-react";
 import { SubTitulo } from "../components/layout/subTitulo";
 import { Titulo } from "../components/layout/titulo";
 import Link from "next/link";
+import { FaGithub } from "react-icons/fa";
+import { VscGithubInverted } from "react-icons/vsc";
+
 
 
 const Contato = () => {
@@ -48,6 +51,15 @@ const Contato = () => {
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                <Linkedin className="text-amber-400" /> Linkedin
+                            </Link>
+                        </li>
+                        <li>
+                            <Link 
+                                href="https://www.linkedin.com/in/marciomsilva/" 
+                                target="_blank"
+                                className="inline-flex gap-2 py-1 pr-5"
+                            >
+                                <FaGithub className="text-amber-400" /> GitHub
                             </Link>
                         </li>
                     </ul>
