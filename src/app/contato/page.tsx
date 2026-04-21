@@ -2,7 +2,6 @@ import { Linkedin, Mail, MessageCircleCode, Phone } from "lucide-react";
 import { SubTitulo } from "../components/layout/subTitulo";
 import { Titulo } from "../components/layout/titulo";
 import Link from "next/link";
-import FormContato from "../components/layout/formContato";
 
 
 const Contato = () => {
@@ -26,7 +25,8 @@ const Contato = () => {
                         </li>
                         <li className="">
                             <Link 
-                                href="#" 
+                                href="https://wa.me/5581986709660" 
+                                target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                 <MessageCircleCode className="text-amber-400" /> WhatsApp
@@ -35,6 +35,7 @@ const Contato = () => {
                         <li>
                             <Link 
                                 href="mailto:marciomoraes.cdd@gmail.com" 
+                                target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                 <Mail className="text-amber-400" /> marciomoraes.cdd@gmail.com
@@ -52,7 +53,7 @@ const Contato = () => {
                     </ul>
                 </div>
                 <div className="w-full p-5">
-                    <FormContato />
+                    
                 </div>
             </div>
         </div>
