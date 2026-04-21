@@ -15,7 +15,7 @@ export const ProjetoItem = ({dadosType}: Props)=>{
             <Link href={dadosType.link}>
                 <Image
                     src={`${dadosType.img}`}
-                    alt=""
+                    alt={`${dadosType.label}`}
                     width={600}
                     height={280}
                 />
