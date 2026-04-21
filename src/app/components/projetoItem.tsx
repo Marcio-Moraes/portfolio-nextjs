@@ -39,12 +39,12 @@ export const ProjetoItem = ({dadosType}: Props)=>{
                             <div className="hidden md:flex">Detalhes</div>
                         </BotaoProjetoItem>
 
-                        <BotaoProjetoItem href={dadosType.github}>
+                        <BotaoProjetoItem targetblank href={dadosType.github}>
                             <FaGithub />
                             <div className="hidden md:flex">GitHub</div>
                         </BotaoProjetoItem>
 
-                        <BotaoProjetoItem href={dadosType.linkProjeto}>
+                        <BotaoProjetoItem targetblank href={dadosType.linkProjeto}>
                             <FaExternalLinkAlt />
                             <div className="hidden md:flex">Link</div>
                         </BotaoProjetoItem>
