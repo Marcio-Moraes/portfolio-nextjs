@@ -1,9 +1,14 @@
-import { Linkedin, Mail, MessageCircleCode, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { SubTitulo } from "../components/layout/subTitulo";
 import { Titulo } from "../components/layout/titulo";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import { VscGithubInverted } from "react-icons/vsc";
+import { ImWhatsapp } from "react-icons/im";
+import { GrLinkedin } from "react-icons/gr";
+import { FaPhone } from "react-icons/fa6";
+import { IoMdMail } from "react-icons/io";
+
+
 
 
 
@@ -17,13 +22,13 @@ const Contato = () => {
                     
                     <p>Você pode entrar em contato, Preenchendo o formulário, ou através do WhatsApp, Email, ou minhas redes sociais..</p>
 
-                    <ul className="flex flex-col justify-start gap-8 my-10">
+                    <ul className="flex flex-col justify-start gap-5 my-10">
                         <li className="">
                             <Link 
                                 href="tel:+5581986709660" 
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
-                                <Phone className="text-amber-400" /> 81 98670-9660
+                                <FaPhone className="text-amber-400 text-lg" /> 81 98670-9660
                             </Link>
                         </li>
                         <li className="">
@@ -32,7 +37,7 @@ const Contato = () => {
                                 target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
-                                <MessageCircleCode className="text-amber-400" /> WhatsApp
+                                <ImWhatsapp className="text-amber-400 text-lg" /> WhatsApp
                             </Link>
                         </li>
                         <li>
@@ -41,7 +46,7 @@ const Contato = () => {
                                 target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
-                                <Mail className="text-amber-400" /> marciomoraes.cdd@gmail.com
+                                <IoMdMail className="text-amber-400 text-lg" /> marciomoraes.cdd@gmail.com
                             </Link>
                         </li>
                         <li>
@@ -50,7 +55,7 @@ const Contato = () => {
                                 target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
-                               <Linkedin className="text-amber-400" /> Linkedin
+                               <GrLinkedin className="text-amber-400 text-lg" /> Linkedin
                             </Link>
                         </li>
                         <li>
@@ -59,7 +64,7 @@ const Contato = () => {
                                 target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
-                                <FaGithub className="text-amber-400" /> GitHub
+                                <FaGithub className="text-amber-400 text-lg" /> GitHub
                             </Link>
                         </li>
                     </ul>
