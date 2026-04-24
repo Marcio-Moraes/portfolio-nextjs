@@ -14,7 +14,7 @@ export const Marcio = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
             >
-                <Titulo title1="Márcio" title2="Moraes" />
+                <Titulo title1="MÁRCIO" title2="MORAES" />
                 <p className="mb-3 text-center">Software Engine - Front-End</p>
             </motion.div>
             <ListaIcones />
@@ -23,7 +23,7 @@ export const Marcio = () => {
 
             <Link className="rounded bg-amber-400 text-black font-semibold uppercase px-6 py-2 block my-5 hover:opacity-75" href={'/projetos'}>Projetos</Link>
             
-            <ThemeToggole />
+            {/* <ThemeToggole /> */}
             
         </div>
     )
