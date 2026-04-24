@@ -4,10 +4,12 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Autoplay from "embla-carousel-autoplay"
 import { data } from "@/data"
 import { ProjetoItem } from "./projetoItem"
+import { Titulo } from "./layout/titulo"
 
 export const CarrosselProjetos = () => {
     return(
-        <div className="container mx-auto px-15">
+        <div className="container mx-auto py-20 px-15">
+            <Titulo title1="Meus" title2="Projetos" mb="mb-20"/>
             <Carousel 
                 opts={{
                     align: "center",
