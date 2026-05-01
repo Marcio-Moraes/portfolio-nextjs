@@ -28,7 +28,7 @@ export default function SobreSection()   {
                                 width={400}
                                 height={650}
                                 alt="Márcio Moraes"
-                                className="max-w-[400] no-scrollbar"
+                                className="max-w-[300px] md:max-w-[400px] no-scrollbar"
                             />
                         </motion.div>
                     </div>
