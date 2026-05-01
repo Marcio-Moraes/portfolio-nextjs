@@ -31,7 +31,7 @@ export const Header = () => {
 
 
     return(
-        <div className="w-full max-w-7xl m-auto flex justify-between items-center px-6 py-4">
+        <div className="w-full max-w-7xl m-auto fixed top-0 left-0 right-0 z-50 bg-[#121212] flex justify-between items-center px-6 py-4">
             <div className="text-6xl font-black hover:text-amber-400">
                 <Link href={'/'}>M</Link>
             </div>
