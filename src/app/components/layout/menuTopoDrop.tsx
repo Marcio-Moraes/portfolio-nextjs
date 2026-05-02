@@ -1,3 +1,4 @@
+import { rolarPara } from "@/app/helpers/rolarPara"
 import { ThemeToggole } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
 import {
@@ -29,25 +30,25 @@ export function MenuDropDownTopo() {
         <DropdownMenuLabel className="text-center">Márcio Moraes - DEV</DropdownMenuLabel>
         <DropdownMenuGroup>
           <DropdownMenuItem>
-            <Link href={'/'}>Home</Link>
+            <Link href={''} onClick={() => rolarPara('home')}>Home</Link>
             <DropdownMenuShortcut>
               <Home />
             </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href={'/sobre'}>Sobre</Link>
+            <Link href={''} onClick={() => rolarPara('sobre')}>Sobre</Link>
             <DropdownMenuShortcut>
               <User />
             </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href={'/projetos'}>Projetos</Link>
+            <Link href={''} onClick={() => rolarPara('projetos')}>Projetos</Link>
             <DropdownMenuShortcut>
               <FolderKanban />
             </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
-            <Link href={'/contato'}>Contato</Link>
+            <Link href={''} onClick={() => rolarPara('contato')}>Contato</Link>
             <DropdownMenuShortcut>
               <Smartphone />
             </DropdownMenuShortcut>
