@@ -21,7 +21,7 @@ export default function SobreSection()   {
                         <motion.div
                            initial={{ opacity: 0, y: 50 }} // Estado inicial (invisível e abaixo)
                            whileInView={{ opacity: 1, y: 0 }} // Estado visível (quando aparece)
-                           transition={{ duration: 0.5 }} // Duração da animação
+                           transition={{ duration: 0.8 }} // Duração da animação
                         >
                             <Image 
                                 src={Marcio}
@@ -52,37 +52,6 @@ export default function SobreSection()   {
                         <Paragrafo 
                             texto="À alguns anos, tenho focado no Reactjs, com Typescript, para desenvolver interfaces de aplicações web."
                         />
-
-                        {/* <SubTitulo texto="Formação" />
-                        <Paragrafo 
-                            texto="Análise e Desenvolvimento de Sistemas - Cursando"
-                        /> */}
-
-                        {/* <SubTitulo texto="Curso Técnico" />
-                        <Paragrafo 
-                            texto="Desenvolvimento Web - Concluído"
-                        /> */}
-
-                        {/* <SubTitulo texto="Carreira profissional" />
-
-                        <ul className="list-disc ml-6">
-                            <li className="font-bold">Desenvolvedor Front-End Pleno - Remoto</li>
-                                <ul className="list-disc ml-8">
-                                    <li>PORTO SAFRA S.A</li>
-                                    <li>Início: 06/2025</li>
-                                    <li className="mb-3">Período: 7 meses - Até o momento</li>
-                                </ul>
-                            <li className="font-bold">Desenvolvedor Front-End Pleno - Remoto</li>
-                                <ul className="list-disc ml-8">
-                                    <li>Agência Weber</li>
-                                    <li>Início: 02/2022</li>
-                                    <li className="mb-3">Período: 3 anos e 3 meses</li>
-                                </ul>
-                        </ul>
-
-                        <Paragrafo 
-                            texto="Outras experiências você pode ver no meu currículo completo."
-                        /> */}
                     </div>
                 </div>
                 
