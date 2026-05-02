@@ -1,4 +1,5 @@
-import { Mail, Phone } from "lucide-react";
+"use client"
+
 import { SubTitulo } from "../../components/layout/subTitulo";
 import { Titulo } from "../../components/layout/titulo";
 import Link from "next/link";
@@ -60,7 +61,7 @@ const ContatoSection = () => {
                         </li>
                         <li>
                             <Link 
-                                href="https://www.linkedin.com/in/marciomsilva/" 
+                                href="https://github.com/marcio-moraes" 
                                 target="_blank"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
