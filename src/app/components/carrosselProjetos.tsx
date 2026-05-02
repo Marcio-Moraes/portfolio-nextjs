@@ -8,7 +8,7 @@ import { Titulo } from "./layout/titulo"
 
 export const CarrosselProjetos = () => {
     return(
-        <div className="container mx-auto py-20 px-15">
+        <div className="container mx-auto py-30 px-15" id="projetos">
             <Titulo title1="Meus" title2="Projetos" mb="mb-20"/>
             <Carousel 
                 opts={{

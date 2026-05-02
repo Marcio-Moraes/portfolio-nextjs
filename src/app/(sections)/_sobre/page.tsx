@@ -16,7 +16,7 @@ export default function SobreSection()   {
 
     return(
         <div className="bg-[#121212]" id="sobre">
-                <div className="w-full max-w-7xl m-auto py-20 px-5 flex flex-col md:flex-row items-center gap-6 md:min-h-screen">
+                <div className="w-full max-w-7xl m-auto py-30 px-5 flex flex-col md:flex-row items-center gap-6 md:min-h-screen">
                     <div className="w-full flex justify-center no-scrollbar" ref={scrollRef}>
                         <motion.div
                            initial={{ opacity: 0, y: 50 }} // Estado inicial (invisível e abaixo)
@@ -53,17 +53,17 @@ export default function SobreSection()   {
                             texto="À alguns anos, tenho focado no Reactjs, com Typescript, para desenvolver interfaces de aplicações web."
                         />
 
-                        <SubTitulo texto="Formação" />
+                        {/* <SubTitulo texto="Formação" />
                         <Paragrafo 
                             texto="Análise e Desenvolvimento de Sistemas - Cursando"
-                        />
+                        /> */}
 
-                        <SubTitulo texto="Curso Técnico" />
+                        {/* <SubTitulo texto="Curso Técnico" />
                         <Paragrafo 
                             texto="Desenvolvimento Web - Concluído"
-                        />
+                        /> */}
 
-                        <SubTitulo texto="Carreira profissional" />
+                        {/* <SubTitulo texto="Carreira profissional" />
 
                         <ul className="list-disc ml-6">
                             <li className="font-bold">Desenvolvedor Front-End Pleno - Remoto</li>
@@ -82,7 +82,7 @@ export default function SobreSection()   {
 
                         <Paragrafo 
                             texto="Outras experiências você pode ver no meu currículo completo."
-                        />
+                        /> */}
                     </div>
                 </div>
                 

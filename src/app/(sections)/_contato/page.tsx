@@ -14,9 +14,9 @@ import { IoMdMail } from "react-icons/io";
 
 const ContatoSection = () => {
     return(
-        <div id="contato">
-            <Titulo title1="Fale" title2="Comigo" mt="mt-10" />
-            <div className="w-full max-w-7xl m-auto min-h-dvh p-10 my-10 flex flex-col md:flex-row gap-10">
+        <div id="contato" className="py-30">
+            <Titulo title1="Fale" title2="Comigo" />
+            <div className="w-full max-w-7xl m-auto p-10 flex flex-col md:flex-row gap-10">
                 <div className="w-full p-5">
                     <SubTitulo texto="Como posso ajudar?" classeNome="mb-5" />
                     
