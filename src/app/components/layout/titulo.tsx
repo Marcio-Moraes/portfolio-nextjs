@@ -23,7 +23,7 @@ export const Titulo = ({title1, title2, mt, mb}: Props) => {
                     {title1}
                     <span className="text-amber-400">{title2}</span>
                 </h1>
-                <div className={`w-full max-w-xs h-0.5 bg-amber-400 ${mb ? " "+mb : 'mb-3'}`}></div>
+                <div className={`w-full max-w-xs h-0.5 mx-auto bg-amber-400 ${mb ? " "+mb : 'mb-3'}`}></div>
             </motion.div>
         </div>
     )
