@@ -25,48 +25,53 @@ const ContatoSection = () => {
 
                     <ul className="flex flex-col justify-start gap-5 my-10">
                         <li className="">
-                            <Link 
+                            <a 
                                 href="tel:+5581986709660" 
+                                rel="noopener noreferrer"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                 <FaPhone className="text-amber-400 text-lg" /> 81 98670-9660
-                            </Link>
+                            </a>
                         </li>
                         <li className="">
-                            <Link 
+                            <a 
                                 href="https://wa.me/5581986709660" 
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                 <ImWhatsapp className="text-amber-400 text-lg" /> WhatsApp
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link 
+                            <a 
                                 href="mailto:marciomoraes.cdd@gmail.com" 
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                 <IoMdMail className="text-amber-400 text-lg" /> marciomoraes.cdd@gmail.com
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link 
+                            <a 
                                 href="https://www.linkedin.com/in/marciomsilva/" 
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                <GrLinkedin className="text-amber-400 text-lg" /> Linkedin
-                            </Link>
+                            </a>
                         </li>
                         <li>
-                            <Link 
+                            <a 
                                 href="https://github.com/marcio-moraes" 
                                 target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex gap-2 py-1 pr-5"
                             >
                                 <FaGithub className="text-amber-400 text-lg" /> GitHub
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                 </div>
