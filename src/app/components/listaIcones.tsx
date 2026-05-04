@@ -20,8 +20,8 @@ export const ListaIcones = () => {
                     transition={{ duration: 0.3 }}
                 >
                     <Image
-                        width={40}
-                        height={40}
+                        width={30}
+                        height={30}
                         alt={i.nomeIcon}
                         src={i.img}
                         className="fill-amber-400 stroke-amber-400" 
