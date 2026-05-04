@@ -1,4 +1,3 @@
-import { CarrosselProjetos } from "../components/carrosselProjetos";
 import { Marcio } from "../components/marcio";
 import SobreSection from "../(sections)/_sobre/page";
 import CursosSection from "../(sections)/_cursos/page";
