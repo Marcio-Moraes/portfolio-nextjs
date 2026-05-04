@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ProjetosSection() {
     return(
         <div className="min-h-dvh py-30" id="projetos">
-            <Titulo title1="Lista de" title2="Projetos" mt="mt-10" />
+            <Titulo title1="Lista de" title2="Projetos" />
             <Projetos />
         </div>
     )
