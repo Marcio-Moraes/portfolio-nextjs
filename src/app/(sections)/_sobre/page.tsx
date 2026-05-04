@@ -25,8 +25,7 @@ export default function SobreSection()   {
                         >
                             <Image 
                                 src={Marcio}
-                                width={400}
-                                height={650}
+                                width={400}                                
                                 alt="Márcio Moraes"
                                 className="max-w-[300px] md:max-w-[400px] no-scrollbar"
                             />
