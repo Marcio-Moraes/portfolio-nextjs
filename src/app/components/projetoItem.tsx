@@ -11,7 +11,7 @@ type Props = {
 
 export const ProjetoItem = ({dadosType}: Props)=>{
     return(
-        <div className="w-full rounded max-w-[600] py-3.5 px-2 border border-amber-400">
+        <div className="w-full rounded max-w-[400] py-3.5 px-2 border border-amber-400">
             <Link href={dadosType.link}>
                 <Image
                     src={`${dadosType.img}`}
@@ -36,17 +36,17 @@ export const ProjetoItem = ({dadosType}: Props)=>{
                     <div className="mt-4 flex justify-center gap-2.5">
                         <BotaoProjetoItem href={dadosType.link}>
                             <TbListDetails />
-                            <div className="hidden md:flex">Detalhes</div>
+                            {/* <div className="hidden md:flex">Detalhes</div> */}
                         </BotaoProjetoItem>
 
                         <BotaoProjetoItem targetblank href={dadosType.github}>
                             <FaGithub />
-                            <div className="hidden md:flex">GitHub</div>
+                            {/* <div className="hidden md:flex">GitHub</div> */}
                         </BotaoProjetoItem>
 
                         <BotaoProjetoItem targetblank href={dadosType.linkProjeto}>
                             <FaExternalLinkAlt />
-                            <div className="hidden md:flex">Link</div>
+                            {/* <div className="hidden md:flex">Link</div> */}
                         </BotaoProjetoItem>
                     </div>
                 </div>
