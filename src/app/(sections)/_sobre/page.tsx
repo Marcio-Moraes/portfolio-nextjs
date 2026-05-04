@@ -7,6 +7,7 @@ import { SubTitulo } from "../../components/layout/subTitulo";
 import { Paragrafo } from "../../components/layout/paragrafo";
 import { motion } from "motion/react";
 import { useRef } from "react";
+import { ListaIcones } from "@/app/components/listaIcones";
 
 
 export default function SobreSection()   {
@@ -32,7 +33,11 @@ export default function SobreSection()   {
                         </motion.div>
                     </div>
                     <div className="w-full">
+                        
                         <Titulo title1="Sobre" title2="mim" />
+
+                        <ListaIcones />
+                        
                         <SubTitulo texto="Quem sou eu?" />
                         <Paragrafo 
                             texto="Pernambucano, 35 anos. Desenvolvedor Front-End à mais de 8 anos."
@@ -50,7 +55,7 @@ export default function SobreSection()   {
 
                         <Paragrafo 
                             texto="À alguns anos, tenho focado no Reactjs, com Typescript, para desenvolver interfaces de aplicações web."
-                        />
+                        />                        
                     </div>
                 </div>
                 
