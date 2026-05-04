@@ -12,9 +12,14 @@ import { rolarPara } from "@/app/helpers/rolarPara";
 export const Header = () => {
     return(
         <div className="bg-[#121212] fixed top-0 left-0 right-0 z-50">
-            <div className="w-full max-w-7xl m-auto   flex justify-between items-center px-6 py-4">
-                <div className="text-6xl font-black text-white hover:text-amber-400">
-                    <Link href={'/'}>M</Link>
+            <div className="w-full max-w-7xl m-auto flex justify-between items-center px-6 py-4">
+                <div className="text-6xl font-black text-white hover:text-amber-400 leading-none">
+                    <Link 
+                        href={'/'} 
+                        className="leading-none flex items-center justify-center -mt-2"
+                    >
+                        M
+                    </Link>
                 </div>
             
                 <motion.div 
