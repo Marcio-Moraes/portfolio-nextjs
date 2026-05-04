@@ -1,6 +1,5 @@
 import { Projeto } from "@/type/projeto"
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import { TbListDetails } from "react-icons/tb";
 import Image from "next/image"
 import Link from "next/link";
 import { BotaoProjetoItem } from "./layout/botaoProjetoItem";
@@ -12,7 +11,7 @@ type Props = {
 export const ProjetoItem = ({dadosType}: Props)=>{
     return(
         <div className="w-full rounded max-w-[400] py-3.5 px-2 border border-amber-400">
-            <Link href={dadosType.link}>
+            <Link href={dadosType.linkProjeto} target="_blank">
                 <Image
                     src={`${dadosType.img}`}
                     alt={`${dadosType.label}`}
@@ -34,19 +33,12 @@ export const ProjetoItem = ({dadosType}: Props)=>{
                     
                     
                     <div className="mt-4 flex justify-center gap-2.5">
-                        <BotaoProjetoItem href={dadosType.link}>
-                            <TbListDetails />
-                            {/* <div className="hidden md:flex">Detalhes</div> */}
-                        </BotaoProjetoItem>
-
                         <BotaoProjetoItem targetblank href={dadosType.github}>
                             <FaGithub />
-                            {/* <div className="hidden md:flex">GitHub</div> */}
                         </BotaoProjetoItem>
 
                         <BotaoProjetoItem targetblank href={dadosType.linkProjeto}>
                             <FaExternalLinkAlt />
-                            {/* <div className="hidden md:flex">Link</div> */}
                         </BotaoProjetoItem>
                     </div>
                 </div>
