@@ -54,7 +54,7 @@ export const Header = () => {
                             onClick={() => rolarPara('cursos')}
                             rel="noopener noreferrer"
                         >
-                            Cursos
+                            Educação
                         </a>
                         <a 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
