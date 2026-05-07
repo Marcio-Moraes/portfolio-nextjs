@@ -40,18 +40,21 @@ export default function SobreSection()   {
                         
                         <SubTitulo texto="Quem sou eu?" />
                         <Paragrafo 
-                            texto="Pernambucano, 35 anos. Desenvolvedor Web à mais de 8 anos."
-                        />
-                        <Paragrafo 
-                            texto="Utilizo as seguintes tecnologias: Reactjs, Nextjs, Typescript, Tailwindcss, shadcn-UI, Zustand, ReactHookForm e Zod, Tanstack, WordPress (php) e Nodejs."
-                        />
-                        <Paragrafo 
-                            texto="Por muitos anos, desenvolvi somente para WordPress com php, criando temas e plugins, e realizando manutenções mensais em projetos para agências de marketing como colaborador."
+                            texto="Desenvolvedor Web à mais de 7 anos."
                         />
 
                         <Paragrafo 
-                            texto="Atuo também como freelancer, e já desenvolvi interfaces de sistemas web, lojas online, single pages 'SPAs', landing pages, para os mais variados setores."
+                            texto="Já desenvolvi interfaces de sistemas web, lojas online, single pages 'SPAs', landing pages, para os mais variados setores, como colaborador e freelancer."
                         />
+                        
+                        <Paragrafo 
+                            texto="Desenvolvo principalmente o front-end, com Reactjs, Typescript, Nextjs, tanstack Query, Zustand, ReactHookForm e Zod, e também com WordPress e php, criando temas e plugins."
+                        />
+
+                        <Paragrafo 
+                            texto="Estou sempre buscando novos conhecimentos e experiências para aprimorar minhas habilidades como desenvolvedor."
+                        />
+
                     </div>
                 </div>
                 
