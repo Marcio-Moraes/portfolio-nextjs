@@ -1,18 +1,12 @@
 import { rolarPara } from "@/app/helpers/rolarPara"
-import { ThemeToggole } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuPortal,
-  DropdownMenuSeparator,
+  DropdownMenuLabel,  
   DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { FolderKanban, Github, Home, MailPlus, Menu, MessageCircleCode, Smartphone, User } from "lucide-react"
@@ -48,45 +42,18 @@ export function MenuDropDownTopo() {
             </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
+            <Link href={''} onClick={() => rolarPara('cursos')}>Educação</Link>
+            <DropdownMenuShortcut>
+              <FolderKanban />
+            </DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
             <Link href={''} onClick={() => rolarPara('contato')}>Contato</Link>
             <DropdownMenuShortcut>
               <Smartphone />
             </DropdownMenuShortcut>
           </DropdownMenuItem>
         </DropdownMenuGroup>
-        <DropdownMenuSeparator />
-        <DropdownMenuGroup>
-          <DropdownMenuItem>Carreira</DropdownMenuItem>
-          <DropdownMenuSub>
-            <DropdownMenuSubTrigger>Currículo</DropdownMenuSubTrigger>
-            <DropdownMenuPortal>
-              <DropdownMenuSubContent>
-                <DropdownMenuItem>
-                  <Link href={'https://www.marciomsilva.com.br/curriculo/marcio_moraes_frontend.pdf'} target="_blank">Currículo em PDF</Link>
-                </DropdownMenuItem>
-              </DropdownMenuSubContent>
-            </DropdownMenuPortal>
-          </DropdownMenuSub>
-        </DropdownMenuGroup>
-        <DropdownMenuSeparator />
-        <DropdownMenuItem>
-          <Link href={'https://github.com/marcio-moraes'} target="_blank">GitHub</Link>
-          <DropdownMenuShortcut>
-            <Github />
-          </DropdownMenuShortcut>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href={'https://wa.me/5581986709660'} target="_blank">WhatsApp</Link>
-          <DropdownMenuShortcut>
-            <MessageCircleCode />
-          </DropdownMenuShortcut>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href={'mailto:marciomoraes.cdd@gmail.com'}>E-Mail</Link>
-          <DropdownMenuShortcut>
-            <MailPlus />
-          </DropdownMenuShortcut>
-        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
