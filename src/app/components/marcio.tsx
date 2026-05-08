@@ -3,7 +3,6 @@
 import { Titulo } from "./layout/titulo"
 import { ListaIcones } from "./listaIcones"
 import { motion } from "motion/react"
-import { TbListDetails } from "react-icons/tb"
 import { FaGithub } from "react-icons/fa"
 import { GrLinkedin } from "react-icons/gr"
 import { IoMdMail } from "react-icons/io"
@@ -18,7 +17,7 @@ export const Marcio = () => {
                 transition={{ duration: 0.5 }}
             >
                 <Titulo title1="MÁRCIO" title2="MORAES" />
-                <p className="mb-3 text-center">Engenheiro de Software - Desenvolvedor Web</p>
+                <p className="mb-3 text-center">Engenheiro de Software - Desenvolvedor Web Front-End</p>
             </motion.div>
 
             <div className="flex gap-6 flex-wrap my-6">
