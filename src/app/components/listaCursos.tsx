@@ -13,7 +13,7 @@ export function ListaCursos() {
   return (
     <Accordion type="single" collapsible className="w-full pt-4">
       <AccordionItem value="item-1">
-        <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5">Trilha Fundamentos</AccordionTrigger>
+        <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5 [&[data-state=open]]:bg-amber-400">Trilha Fundamentos</AccordionTrigger>
         <AccordionContent className="px-2 pt-5 pb-20">
           <h3 className="text-sm md:text-xl mb-1 font-bold">B7Web Trilha Fundamentos</h3>
           
@@ -27,7 +27,7 @@ export function ListaCursos() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
-        <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5">Trilha Front-End</AccordionTrigger>
+        <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5 [&[data-state=open]]:bg-amber-400">Trilha Front-End React</AccordionTrigger>
         <AccordionContent className="px-2 pt-5 pb-20">
           <h3 className="text-sm md:text-xl mb-1 font-bold">B7Web Trilha de Cursos Front-End</h3>
           
@@ -45,7 +45,7 @@ export function ListaCursos() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5">Trilha Back-End</AccordionTrigger>
+        <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5 [&[data-state=open]]:bg-amber-400">Trilha Back-End</AccordionTrigger>
         <AccordionContent className="px-2 pt-5 pb-20">
           <h3 className="text-sm md:text-xl mb-1 font-bold">B7Web Trilha de Cursos Back-End</h3>
           
