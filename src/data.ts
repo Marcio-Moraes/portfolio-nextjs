@@ -1,7 +1,7 @@
 export const data = {
     projetosFront: [
         {id: 1, label: "Loja B7Story", link: "/projetos/b7story", linkProjeto: "https://b7store.vercel.app/", img: "/assets/projetos/b7store.png", github: "https://github.com/Marcio-Moraes/b7store", tech: 'Reactjs, Nextjs, typescript, Tailwindcss, zustand', desc: "Loja de vestuário com temas de tecnologia. Criada em NextJS no Front-End. Com carrinho de compra, frete, login, cadastro e muito mais."},
-        {id: 2, label: "Portfolio Pessoal", link: "/projetos/portfolionext", linkProjeto: "https://portfolio-nextjs-gamma-beige.vercel.app/", img: "/assets/projetos/portfolio-nextjs.png", github: "https://github.com/Marcio-Moraes/portfolio-nextjs", tech: 'Reactjs, Nextjs, Typescript, tailwindcss, Shadcn-UI', desc: "Versão do meu Portfolio, com lista de projetos desenvolvidos, com link de deploy e github."},
+        {id: 2, label: "Portfolio Pessoal", link: "/projetos/portfolionext", linkProjeto: "https://marciomsilva.com.br", img: "/assets/projetos/portfolio-nextjs.png", github: "https://github.com/Marcio-Moraes/portfolio-nextjs", tech: 'Reactjs, Nextjs, Typescript, tailwindcss, Shadcn-UI', desc: "Versão do meu Portfolio, com lista de projetos desenvolvidos, com link de deploy e github."},
         {id: 3, label: "Sistema de Despesas Pessoais", link: "/projetos/sistema-despesasp", linkProjeto: "https://dashboard-de-despesas-pessoais.vercel.app/", img: "/assets/projetos/dashboard-despesas-pessoais.png", github: "https://github.com/Marcio-Moraes/dashboard-despesas-pessoais", tech: 'Reactjs, Typescript, Styled-Components, hooks(Effect, States)', desc: "O sistema pega o mês atual, filtra a lista completa de dados e exibi apenas por mês selecionado"},
     ],
     icones: [
