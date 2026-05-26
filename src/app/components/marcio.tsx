@@ -46,7 +46,7 @@ export const Marcio = () => {
                     <IoMdMail />
                 </a>
                 <a 
-                    href="https://wa.me/5511999999999" 
+                    href="https://wa.me/5581986709660" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-3xl bg-amber-400 text-black rounded-full p-2"
