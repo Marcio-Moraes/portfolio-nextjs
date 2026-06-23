@@ -5,7 +5,7 @@ export type Projeto = {
     linkProjeto: string;
     img: string;
     github: string;
-    tech?: string;
+    tech?: string[];
     desc: string;
 }
 
