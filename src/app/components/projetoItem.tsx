@@ -5,7 +5,7 @@ import Link from "next/link";
 import { BotaoProjetoItem } from "./layout/botaoProjetoItem";
 
 type Props = {
-    dadosType: Projeto;    
+    dadosType: Projeto;
 }
 
 export const ProjetoItem = ({dadosType}: Props)=>{
@@ -28,7 +28,9 @@ export const ProjetoItem = ({dadosType}: Props)=>{
 
                     <p className="text-center hidden md:block">{dadosType.desc}</p>
 
-                    <h3 className="mt-5 text-center">Tecnologias utilizadas: ({dadosType.tech})</h3>
+                    <div className="mt-5 text-center flex flex-wrap justify-center gap-2">
+                        {dadosType.tech?.map((tech) => <span key={tech} className="text-xs border border-amber-400 px-2 py-1 rounded">{tech}</span>)}
+                    </div>
 
                     
                     
