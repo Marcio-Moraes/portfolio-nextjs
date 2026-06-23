@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" className="scroll-smooth" suppressHydrationWarning>
-      <body>
+      <body className="vc-init">
         
         <ThemeProvider
             attribute="class"
