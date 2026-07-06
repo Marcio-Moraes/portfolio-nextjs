@@ -40,7 +40,7 @@ export default function SobreSection()   {
                         
                         <SubTitulo texto="Quem sou eu?" />
                         <Paragrafo 
-                            texto="Desenvolvedor Web à mais de 7 anos."
+                            texto="Desenvolvedor Web há mais de 7 anos."
                         />
 
                         <Paragrafo 
