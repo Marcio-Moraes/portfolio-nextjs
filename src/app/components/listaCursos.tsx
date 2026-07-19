@@ -11,7 +11,7 @@ import {
 
 export function ListaCursos() {
   return (
-    <Accordion type="single" collapsible className="w-full max-w-4xl mx-auto pt-4">
+    <Accordion type="single" collapsible className="w-full max-w-2xl mx-auto pt-4">
       <AccordionItem value="item-1">
         <AccordionTrigger className="font-bold text-xl md:text-lg bg-amber-50 hover:bg-amber-400 no-underline text-black cursor-pointer px-2 mb-5 [&[data-state=open]]:bg-amber-400">Trilha Fundamentos</AccordionTrigger>
         <AccordionContent className="px-2 pt-5 pb-20">
