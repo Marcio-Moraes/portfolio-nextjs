@@ -36,6 +36,12 @@ export function MenuDropDownTopo() {
             </DropdownMenuShortcut>
           </DropdownMenuItem>
           <DropdownMenuItem>
+            <Link href={''} onClick={() => rolarPara('skills')}>Skills</Link>
+            <DropdownMenuShortcut>
+              <User />
+            </DropdownMenuShortcut>
+          </DropdownMenuItem>
+          <DropdownMenuItem>
             <Link href={''} onClick={() => rolarPara('projetos')}>Projetos</Link>
             <DropdownMenuShortcut>
               <FolderKanban />

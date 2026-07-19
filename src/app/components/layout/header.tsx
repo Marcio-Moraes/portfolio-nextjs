@@ -44,6 +44,13 @@ export const Header = () => {
                         </a>
                         <a 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
+                            onClick={() => rolarPara('skills')}
+                            rel="noopener noreferrer"
+                        >
+                            Skills
+                        </a>
+                        <a 
+                            className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('projetos')}
                             rel="noopener noreferrer"
                         >
