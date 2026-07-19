@@ -16,7 +16,7 @@ export default function SobreSection()   {
 
 
     return(
-        <div className="bg-[#121212]" id="sobre">
+        <div className="" id="sobre">
                 <div className="w-full max-w-7xl m-auto py-30 px-5 flex flex-col md:flex-row items-center gap-6 md:min-h-screen">
                     <div className="w-full flex justify-center no-scrollbar" ref={scrollRef}>
                         <motion.div
