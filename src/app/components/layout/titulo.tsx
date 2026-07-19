@@ -19,7 +19,7 @@ export const Titulo = ({title1, title2, mt, mb}: Props) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
             >
-                <h1 className={`font-bold text-[36px] md:text-[72px] flex justify-center gap-3 ${mt ? " "+mt : ''}`}>
+                <h1 className={`font-bold text-[36px] md:text-[72px] leading-[1.3em] flex flex-wrap justify-center gap-2 lg:gap-3 ${mt ? " "+mt : ''}`}>
                     {title1}
                     <span className="text-amber-400">{title2}</span>
                 </h1>
