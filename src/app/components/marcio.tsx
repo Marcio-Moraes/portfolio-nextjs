@@ -10,14 +10,14 @@ import { ImWhatsapp } from "react-icons/im"
 
 export const Marcio = () => {
     return(
-        <div className="h-screen flex flex-col items-center justify-center" id="home">
+        <div className="h-screen flex flex-col items-center justify-center bg-[#121212]" id="home">
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
             >
                 <Titulo title1="MÁRCIO" title2="MORAES" />
-                <p className="mb-3 text-center">Engenheiro de Software - Desenvolvedor Web Front-End</p>
+                <p className="mb-3 text-center">Desenvolvedor Web Front-End</p>
             </motion.div>
 
             <div className="flex gap-6 flex-wrap my-6">
