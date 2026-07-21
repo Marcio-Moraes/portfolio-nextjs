@@ -28,48 +28,42 @@ export const Header = () => {
                     transition={{ duration: 0.5 }}
                 >
                     <div className="hidden md:flex gap-1">
-                        <a 
+                        <button 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('home')}
-                            rel="noopener noreferrer"
                         >
                             Home
-                        </a>
-                        <a 
+                        </button>
+                        <button 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('sobre')}
-                            rel="noopener noreferrer"
                         >
                             Sobre
-                        </a>
-                        <a 
+                        </button>
+                        <button 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('skills')}
-                            rel="noopener noreferrer"
                         >
                             Skills
-                        </a>
-                        <a 
+                        </button>
+                        <button 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('projetos')}
-                            rel="noopener noreferrer"
                         >
                             Projetos
-                        </a>
-                        <a 
+                        </button>
+                        <button 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('cursos')}
-                            rel="noopener noreferrer"
                         >
                             Educação
-                        </a>
-                        <a 
+                        </button>
+                        <button 
                             className="rounded cursor-pointer text-white hover:text-black hover:bg-amber-400 px-4 py-1"
                             onClick={() => rolarPara('contato')}
-                            rel="noopener noreferrer"
                         >
                             Contato
-                        </a>
+                        </button>
                     </div>
                 </motion.div>
 
